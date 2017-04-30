@@ -5,8 +5,8 @@ header-img: img/home-bg.jpg
 email: ezhuangrui@gmail.com
 description: ""
 keyword: ""
-url: "http://adarns.com"       # your host, for absolute URL
-baseurl: "/adarnsblog"         # for example, '/blog' if your blog hosted on 'host/blog'
+url: "http://adarns.com/"       # your host, for absolute URL
+baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
