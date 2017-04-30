@@ -1,0 +1,83 @@
+---
+layout:     post
+title:      "Welcome to My first Blog"
+subtitle:   " \"Hello World\""
+date:       2017-05-01 02:19:00
+author:     "Adarns"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - LiveStyle
+    - [Hope]学习笔记
+---
+
+> “Finally got here！ ”
+
+
+## 写在前面
+
+费时总共大概7-8h的blog终于搭建成功了，虽然已经是深夜了，还是写点东西庆祝一下吧~
+
+[直接看搭建教程](#build)
+
+在经历过九九八十一难之后，踏过了不知道多少的坑......
+终于，在五一这天搭建好自己的博客，内心还是十分激动的hhh
+
+虽然回想起来其实很简单的几个问题，主要还是自己的git等基础不扎实，很容易出错，以后得多注重基础才行
+那就顺便总结一下我遇到的一些“坑”，整个的一个过程吧，当作是工作室的一篇学习笔记hhh.
+
+
+<p id = "build"></p>
+---
+
+## 1.搭建本地WordPress架构的blog练手
+ 
+[WordPress官网](https://cn.wordpress.org/),中文版的网站，对于个人和小型站点来说，建站不需要强大的后台管理系统，用WordPress就显得十分的经济和方便，当然，目前大多数综合性网站都在用各种CMS后台，国内目前的通源CMS等，还有很流行的drupal，有兴趣的同学可以之后一起研究研究。。
+
+除了这点，我觉得用WordPress的另外一个好处就是（对我这种懒人来说）能提供各种各样的基础模板，之后的拓展和修改就可以更加的自由，不用从头开始。
+
+好的，首先第一步搭建本地环境Apache+PHP+mySQl在window系统下面搭建确实有点坑。。配置修改参数都很烦，，
+要是在Linux系统下就好了，毕竟Win有自带的IIS-manager
+
+这里推荐大家一个网站，Wampserver封装了以上的所有环境，打包安装，记得根盘符，最好一次成功，这是坑！一次安装不成功后面处理会很麻烦。。
+网站：[Wampsever](www.wampserver.com/) *科学上网
+
+这是一份非常详细的说明和教程[如何搭建wampserver详细](http://www.360doc.com/content/13/1113/09/426480_328813961.shtml)
+教程有点老，但是还是很管用，这里主要把我踩过的几个坑分享一下。。
+
+1. 因为win系统，记得要禁用停止IIS-manager的服务，否则无法下一步搭建
+2. 最好开启URL重写
+3. 修改（例如httpd.conf）改动之后保存退出重新登陆才能有效果
+4. 只有图标绿色才表示正常，橙色和红色都代表有没有配置好的地方
+
+之后就是mySQL的配置和phpMYmanager的设置，默认的账户是root，密码为空，添加新账户设置权限密码，同时可在mySQL上建立对应的数据库
+
+测试：本地浏览器打开输入localhost/
+
+注意！！：此处可能80端口被占用，只能选择改变端口，具体需要在httpd.conf配置，此时输入为localhost:8082（我输入的端口）
+
+之后环境安装完毕，将wordpress解压到www的文件夹中，打开localhost/filename可以进入安装界面，按照指示进行安装
+没有大问题就可以在本地配置模板，登陆自己的本地blog了。
+
+
+正好之前就有关注过 [GitHub Pages](https://pages.github.com/) + [Jekyll](http://jekyllrb.com/) 快速 Building Blog 的技术方案，非常轻松时尚。
+
+其优点非常明显：
+
+* **Markdown** 带来的优雅写作体验
+* 非常熟悉的 Git workflow ，**Git Commit 即 Blog Post**
+* 利用 GitHub Pages 的域名和免费无限空间，不用自己折腾主机
+	* 如果需要自定义域名，也只需要简单改改 DNS 加个 CNAME 就好了
+* Jekyll 的自定制非常容易，基本就是个模版引擎
+
+## 2.申请域名
+## 3.搭建GitHub的线上博客
+本来觉得最大的缺点可能是 GitHub 在国内访问起来太慢，所以第二天一起床就到 GitCafe(Chinese GitHub Copy) 迁移了一个[镜像](http://huxpro.gitcafe.io)出来，结果还是巨慢。
+
+
+
+
+---
+
+
+
+## 后记
