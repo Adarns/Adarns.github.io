@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Welcome to My first Blog"
-subtitle:   "\Hello World\"
+subtitle:   "Hello World"
 date:       2017-05-01 02:19:00
 author:     "Adarns"
 header-img: "img/post-bg-2015.jpg"
