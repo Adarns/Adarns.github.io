@@ -1,6 +1,6 @@
 # Site settings
-title: Adarns Blog
-SEOTitle: Hurry的博客 | Your Blog
+title: Adarns-Home
+SEOTitle: Hurry的博客 | Blog
 header-img: img/home-bg.jpg
 email: ezhuangrui@gmail.com
 description: ""
@@ -68,7 +68,7 @@ ga_domain: adarns.com
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "写代码的命，作设计的心"
+sidebar-about-description: "写代码的命，做设计的心"
 sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -88,13 +88,7 @@ friends: [
         title: "[Hope]工作室",
         href: "http://ce.sysu.edu.cn/hope"
     },{
-        title: "Bar",
-        href: "#"
-    },{
-        title: "Example Friends",
-        href: "#"
-    },{
-        title: "It helps SEO",
-        href: "#"
+        title: "中大学院",
+        href: "http://ce.sysu.edu.cn"
     }
 ]
